@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Ahmed Esam Hasan portfolio website. Frontend Developer focused on React.js, JavaScript, TypeScript, responsive UI, API integration, accessibility, and frontend performance." />
+  <meta name="keywords" content="Ahmed Esam Hasan, Frontend Developer, React.js, JavaScript, TypeScript, Angular, Portfolio" />
+  <title>Ahmed Esam Hasan | Skills Portfolio</title>
+
+  <link rel="icon" href="assets/img/favicon.ico" />
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand brand-text" href="#home">Ahmed Esam Hasan</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item mt-3 mt-lg-0">
+              <a class="btn btn-brand btn-sm" href="assets/docs/Ahmed_Esam_Hasan_Frontend_Developer_2025.pdf" target="_blank" rel="noreferrer">Download CV</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section section-space">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <span class="eyebrow">Frontend Developer</span>
+            <h1 class="hero-title">I build clean, responsive, and performance-oriented web interfaces.</h1>
+            <p class="hero-text">
+              I am Ahmed Esam Hasan, a frontend developer based in Cairo. I focus on React.js, JavaScript, TypeScript, and modern frontend architecture. My background in Full Stack Web Development helps me build accessible interfaces that connect smoothly with real APIs and practical product workflows.
+            </p>
+
+            <div class="hero-actions d-flex flex-wrap gap-3">
+              <a class="btn btn-brand" href="#projects">View Projects</a>
+              <a class="btn btn-outline-light custom-outline" href="#contact">Let’s Connect</a>
+            </div>
+
+            <div class="hero-highlights row g-3 mt-4">
+              <div class="col-sm-4">
+                <div class="mini-stat">
+                  <strong>React.js</strong>
+                  <span>Reusable components, Hooks, and Context API</span>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="mini-stat">
+                  <strong>Responsive UI</strong>
+                  <span>Clean layouts with Flexbox, Grid, and accessibility in mind</span>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="mini-stat">
+                  <strong>API Integration</strong>
+                  <span>RESTful APIs, routing, and real user flows</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="hero-card card-surface">
+              <img src="assets/img/me.png" alt="Ahmed Esam Hasan" class="hero-image" />
+
+              <div class="hero-card-content">
+                <h2>Ahmed Esam Hasan</h2>
+                <p class="hero-role">Frontend Developer, React.js</p>
+
+                <ul class="quick-info list-unstyled mb-0">
+                  <li><i class="bi bi-geo-alt"></i><span>Cairo, Egypt</span></li>
+                  <li><i class="bi bi-envelope"></i><a href="mailto:Iam.Ahmedesam@gmail.com">Iam.Ahmedesam@gmail.com</a></li>
+                  <li><i class="bi bi-telephone"></i><a href="tel:+201128284800">(+20) 1128284800</a></li>
+                  <li><i class="bi bi-telephone"></i><a href="tel:+201550700209">(+20) 1550700209</a></li>
+                  <li><i class="bi bi-github"></i><a href="https://github.com/AhmedEsamHasan" target="_blank" rel="noreferrer">GitHub Profile</a></li>
+                  <li><i class="bi bi-linkedin"></i><a href="https://linkedin.com/in/iam-ahmed-esam" target="_blank" rel="noreferrer">LinkedIn Profile</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-space">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">About</span>
+          <h2>Frontend first, with clean structure and strong product awareness.</h2>
+          <p>
+            I focus on building accessible and maintainable user interfaces using React.js and modern JavaScript. I enjoy turning UI designs into clean components, improving frontend performance, and keeping code readable. My training in Full Stack Web Development also gives me a practical understanding of APIs, backend integration, and end-to-end product flow.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="card-surface info-card h-100">
+              <i class="bi bi-window-stack"></i>
+              <h3>Frontend Development</h3>
+              <p>React.js, reusable components, Hooks, Context API, routing, and responsive layout implementation.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-surface info-card h-100">
+              <i class="bi bi-plug"></i>
+              <h3>API Integration</h3>
+              <p>RESTful API integration, loading and error states, form handling, and structured user flows connected to backend services.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-surface info-card h-100">
+              <i class="bi bi-gear"></i>
+              <h3>Backend Awareness</h3>
+              <p>PHP, Laravel, MySQL, and backend fundamentals that support better frontend decisions and smoother collaboration.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-space section-dark">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">Skills</span>
+          <h2>Core skills and tools</h2>
+          <p>These are the main tools and areas I use when building frontend applications.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="card-surface skill-group h-100">
+              <h3>Frontend Stack</h3>
+              <div class="chip-list">
+                <span>React.js</span>
+                <span>JavaScript ES6+</span>
+                <span>TypeScript</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Responsive Design</span>
+                <span>Flexbox</span>
+                <span>CSS Grid</span>
+                <span>React Router</span>
+                <span>Context API</span>
+                <span>Accessibility</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card-surface skill-group h-100">
+              <h3>Backend and Integration</h3>
+              <div class="chip-list">
+                <span>RESTful APIs</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>npm</span>
+                <span>Vite</span>
+                <span>Postman</span>
+                <span>PHP</span>
+                <span>Laravel</span>
+                <span>MySQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-4 mt-1">
+          <div class="col-lg-6">
+            <div class="card-surface">
+              <div class="skill-meter">
+                <div class="skill-row">
+                  <span>React.js and component-based UI</span>
+                  <strong>90%</strong>
+                </div>
+                <div class="progress skill-progress"><div class="progress-bar" style="width: 90%"></div></div>
+              </div>
+
+              <div class="skill-meter">
+                <div class="skill-row">
+                  <span>JavaScript and frontend logic</span>
+                  <strong>88%</strong>
+                </div>
+                <div class="progress skill-progress"><div class="progress-bar" style="width: 88%"></div></div>
+              </div>
+
+              <div class="skill-meter mb-0">
+                <div class="skill-row">
+                  <span>Responsive layout and UI structure</span>
+                  <strong>92%</strong>
+                </div>
+                <div class="progress skill-progress"><div class="progress-bar" style="width: 92%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card-surface">
+              <div class="skill-meter">
+                <div class="skill-row">
+                  <span>TypeScript and frontend tooling</span>
+                  <strong>80%</strong>
+                </div>
+                <div class="progress skill-progress"><div class="progress-bar" style="width: 84%"></div></div>
+              </div>
+
+              <div class="skill-meter">
+                <div class="skill-row">
+                  <span>API integration and client state</span>
+                  <strong>85%</strong>
+                </div>
+                <div class="progress skill-progress"><div class="progress-bar" style="width: 85%"></div></div>
+              </div>
+
+              <div class="skill-meter mb-0">
+                <div class="skill-row">
+                  <span>Accessibility and frontend performance</span>
+                  <strong>84%</strong>
+                </div>
+                <div class="progress skill-progress"><div class="progress-bar" style="width: 84%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-space">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">Projects</span>
+          <h2>Selected work</h2>
+          <p>Project samples that reflect practical frontend work, reusable architecture, and API integration.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <article class="card-surface project-card h-100">
+              <span class="project-badge">React.js</span>
+              <h3>React E-Commerce Frontend</h3>
+              <p>Responsive e-commerce platform built with reusable components, React Hooks, routing, and API integration for product and order flows.</p>
+              <ul>
+                <li>Reusable React components</li>
+                <li>React Router</li>
+                <li>Hooks and user flows</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <article class="card-surface project-card h-100">
+              <span class="project-badge">React Dashboard</span>
+              <h3>Task Management Dashboard</h3>
+              <p>Kanban-style task dashboard with full CRUD features, persistent state, and organized filtering, sorting, and pagination.</p>
+              <ul>
+                <li>Full CRUD workflow</li>
+                <li>Persistent local state</li>
+                <li>Productivity-focused layout</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <article class="card-surface project-card h-100">
+              <span class="project-badge">Angular</span>
+              <h3>Angular Fundamentals Web Application</h3>
+              <p>Training applications built with Angular components, services, modular structure, and basic routing using TypeScript.</p>
+              <ul>
+                <li>Components and services</li>
+                <li>Modular architecture</li>
+                <li>Basic routing and binding</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section-space">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">Experience</span>
+          <h2>Education and training</h2>
+          <p>My background combines engineering education, intensive technical training, and hands-on frontend project work.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="card-surface timeline-card h-100">
+              <h3>Education</h3>
+              <div class="timeline-item">
+                <span class="timeline-year">2025</span>
+                <h4>Information Technology Institute, ITI</h4>
+                <p>Professional Diploma, Full Stack Web Development, PHP and Laravel Track.</p>
+              </div>
+              <div class="timeline-item mb-0">
+                <span class="timeline-year">2022</span>
+                <h4>Helwan University</h4>
+                <p>Bachelor of Engineering.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card-surface timeline-card h-100">
+              <h3>Training</h3>
+              <div class="timeline-item">
+                <span class="timeline-year">Track</span>
+                <h4>DEPI</h4>
+                <p>React Web Developer Track.</p>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-year">Track</span>
+                <h4>EFE Egypt</h4>
+                <p>Full Stack React PHP.</p>
+              </div>
+              <div class="timeline-item mb-0">
+                <span class="timeline-year">Track</span>
+                <h4>Orange Digital Center</h4>
+                <p>MERN Stack training and practical frontend exposure.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-space section-dark">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">Contact</span>
+          <h2>Open to frontend opportunities</h2>
+          <p>I am available for frontend opportunities and open to roles where clean UI, accessibility, and performance matter.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="card-surface contact-card h-100">
+              <i class="bi bi-envelope"></i>
+              <h3>Email</h3>
+              <a href="mailto:Iam.Ahmedesam@gmail.com">Iam.Ahmedesam@gmail.com</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card-surface contact-card h-100">
+              <i class="bi bi-telephone"></i>
+              <h3>Phone</h3>
+              <a href="tel:+201128284800">(+20) 1128284800</a><br /><a href="tel:+201550700209">(+20) 1550700209</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card-surface contact-card h-100">
+              <i class="bi bi-linkedin"></i>
+              <h3>LinkedIn</h3>
+              <a href="https://linkedin.com/in/iam-ahmed-esam" target="_blank" rel="noreferrer">iam-ahmed-esam</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card-surface contact-card h-100">
+              <i class="bi bi-github"></i>
+              <h3>GitHub</h3>
+              <a href="https://github.com/AhmedEsamHasan" target="_blank" rel="noreferrer">AhmedEsamHasan</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card-surface contact-card h-100">
+              <i class="bi bi-shield-check"></i>
+              <h3>Availability</h3>
+              <p class="mb-0">Immediate availability, Military Status: Exempt</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <p class="mb-0">© 2026 Ahmed Esam Hasan. All rights reserved.</p>
+      <div class="footer-links d-flex gap-3">
+        <a href="https://github.com/AhmedEsamHasan" target="_blank" rel="noreferrer" aria-label="GitHub profile"><i class="bi bi-github"></i></a>
+        <a href="https://linkedin.com/in/iam-ahmed-esam" target="_blank" rel="noreferrer" aria-label="LinkedIn profile"><i class="bi bi-linkedin"></i></a>
+        <a href="https://wa.me/201128284800" target="_blank" rel="noreferrer" aria-label="WhatsApp contact"><i class="bi bi-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
